@@ -1,5 +1,0 @@
-transformers=4.51.3
-torch==2.7.0
-accelerate==1.7.0
-peft==0.14.0
-gradio
