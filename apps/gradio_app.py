@@ -1,3 +1,5 @@
+import os
+import sys
 import gradio as gr
 
 sys.path.append(os.path.join(os.path.dirname(__file__), 'gradio_app'))
