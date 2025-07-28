@@ -7,3 +7,8 @@ datasets==3.6.0
 numpy==1.26.4
 unsloth==2025.6.12
 trl== 0.19.0
+vllm==0.8.5.post1
+bitsandbytes==0.46.1
+sacremoses==0.1.1
+tensorboard==2.19.0
+gradio==5.35.0
