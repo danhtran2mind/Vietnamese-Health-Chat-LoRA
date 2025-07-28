@@ -18,16 +18,17 @@ DESCRIPTION = '''
         <strong><span class="intro-icon">ℹ️</span> Notice:</strong> For research purposes only. AI responses may have limitations due to development, datasets, and architecture. <strong>Always consult a medical professional for health advice 🩺</strong>.
 </div>
 '''
-
+CSS_PATH = "gardio_app/static/style.css"
+JS_PATH = "gardio_app/static/script.js"
 def user(message, history):
     if not isinstance(history, list):
         history = []
     return "", history + [[message, None]]
 
 def create_ui(model_handler):
-    with gr.Blocks(css="static/style.css", theme=gr.themes.Default()) as demo:
+    with gr.Blocks(css=CSS_PATH, theme=gr.themes.Default()) as demo:
         gr.Markdown(DESCRIPTION)
-        gr.HTML('<script src="static/script.js"></script>')
+        gr.HTML('<script src=JS_PATH></script>')
         active_gen = gr.State([False])
         model_handler_state = gr.State(model_handler)
         
