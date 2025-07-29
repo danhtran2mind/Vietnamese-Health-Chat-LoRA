@@ -9,31 +9,40 @@ from model_handler import ModelHandler
 from generator import generate_response
 
 DESCRIPTION = '''
-<h1><span class="intro-icon">⚕️</span> Medical Chatbot with LoRA Models</h1>
-    <h2>AI-Powered Medical Insights</h2>
-    <div class="intro-highlight">
-        <strong>Explore our advanced models, fine-tuned with LoRA for medical reasoning in Vietnamese.</strong>
-    </div>
-    <div class="intro-disclaimer">
-        <strong><span class="intro-icon">ℹ️</span> Notice:</strong> For research purposes only. AI responses may have limitations due to development, datasets, and architecture. <strong>Always consult a medical professional for health advice 🩺</strong>.
+<h1><span class="intro-icon">⚕️</span> Vietnamese Health Chat LoRA</h1>
+<h2>AI-Powered Medical Insights</h2>
+<div class="intro-highlight">
+    <span class="emphasis">Discover advanced models fine-tuned with LoRA for precise medical reasoning in Vietnamese.</span>
+</div>
+<div class="intro-disclaimer">
+    <span class="intro-icon">ℹ️</span> Important Notice:
+        <span class="intro-purpose">
+            For research purposes only. AI responses may have limitations due to development, datasets, or architecture.
+        </span>
+    <br>    
+    <span class="intro-alert emphasis">
+        🚨Always consult a certified medical professional for personalized health advice🩺
+    </span>
 </div>
 '''
-CSS_PATH = "gardio_app/static/style.css"
-JS_PATH = "gardio_app/static/script.js"
+
+# Load local CSS file
+CSS = open("gradio_app/static/styles.css").read()
+
 def user(message, history):
     if not isinstance(history, list):
         history = []
     return "", history + [[message, None]]
 
 def create_ui(model_handler):
-    with gr.Blocks(css=CSS_PATH, theme=gr.themes.Default()) as demo:
-        gr.Markdown(DESCRIPTION)
-        gr.HTML('<script src=JS_PATH></script>')
+    with gr.Blocks(css=CSS, theme=gr.themes.Default()) as demo:
+        gr.HTML(DESCRIPTION)
+        gr.HTML('<script src="file=gradio_app/static/script.js"></script>')
         active_gen = gr.State([False])
         model_handler_state = gr.State(model_handler)
         
         chatbot = gr.Chatbot(
-            elem_id="chatbot",
+            elem_id="output-container",
             height=500,
             show_label=False,
             render_markdown=True
@@ -42,31 +51,46 @@ def create_ui(model_handler):
         with gr.Row():
             msg = gr.Textbox(
                 label="Message",
-                placeholder="Type your medical query in Vietnamese...",
+                placeholder="Enter your medical query in Vietnamese...",
                 container=False,
                 scale=4
             )
-            submit_btn = gr.Button("Send", variant='primary', scale=1)
+            submit_btn = gr.Button(
+                value="Send",
+                variant='primary',
+                elem_classes="chat-send-button",
+                scale=1
+            )
+        
+        with gr.Row():
+            clear_btn = gr.Button("Clear", variant='secondary')
+            stop_btn = gr.Button("Stop", variant='stop')
+        
+        with gr.Row():
+            with gr.Column(scale=1):
+                auto_clear = gr.Checkbox(
+                    label="Auto-Clear Chat History",
+                    value=True,
+                    info="Automatically resets internal conversation history after each response, keeping displayed messages intact for a smooth experience.",
+                    elem_classes="enhanced-checkbox"
+                )
+            with gr.Column(scale=1):
+                with gr.Blocks():
+                    model_dropdown = gr.Dropdown(
+                        choices=MODEL_IDS,
+                        value=MODEL_IDS[0],
+                        label="Select Model",
+                        interactive=True
+                    )
+                    model_load_output = gr.Textbox(label="Model Load Status")
         
         with gr.Column(scale=2):
-            with gr.Row():
-                clear_btn = gr.Button("Clear", variant='secondary')
-                stop_btn = gr.Button("Stop", variant='stop')
-            
-            with gr.Accordion("Parameters", open=False):
-                model_dropdown = gr.Dropdown(
-                    choices=MODEL_IDS,
-                    value=MODEL_IDS[0],
-                    label="Select Model",
-                    interactive=True
-                )
+            with gr.Accordion("Advanced Parameters", open=False):
                 temperature = gr.Slider(minimum=0.1, maximum=1.5, value=0.7, label="Temperature")
                 top_p = gr.Slider(minimum=0.1, maximum=1.0, value=0.95, label="Top-p")
                 top_k = gr.Slider(minimum=1, maximum=100, value=64, step=1, label="Top-k")
                 max_tokens = gr.Slider(minimum=128, maximum=4084, value=512, step=32, label="Max Tokens")
-                seed = gr.Slider(minimum=0, maximum=2**32, value=42, step=1, label="Random Seed")
-                auto_clear = gr.Checkbox(label="Auto Clear History", value=True, 
-                                         info="Clears internal conversation history after each response but keeps displayed previous messages.")
+                seed = gr.Slider(minimum=0, maximum=2**32, value=123456, step=1, label="Random Seed")
 
         gr.Examples(
             examples=[
@@ -76,10 +100,9 @@ def create_ui(model_handler):
                 ["Tôi bị trĩ, tôi có nên mổ không?"]
             ],
             inputs=msg,
-            label="Example Medical Queries"
+            label="Sample Medical Queries"
         )
         
-        model_load_output = gr.Textbox(label="Model Load Status")
         model_dropdown.change(
             fn=model_handler.load_model,
             inputs=[model_dropdown, chatbot],
