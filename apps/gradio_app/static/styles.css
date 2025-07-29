@@ -1,61 +1,90 @@
-.intro-container {
-    max-width: 800px;
-    padding: 40px;
-    background: #ffffff;
-    border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+.app-container {
+    background: linear-gradient(135deg, #e6f3ff 0%, #e8f5e9 100%);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding: 20px;
+    /* Uncomment below to use a medical-themed background image */
+    /* background-image: url('file=gradio_app/static/medical-bg.png'); */
+    /* background-blend-mode: overlay; */
+}
+
+/* .intro-container {
+    max-width: 900px;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
     text-align: center;
-    animation: fadeIn 1s ease-in-out;
+    animation: fadeIn 0.8s ease-in-out;
+    margin: 0 auto;
+} */
+.intro-container {
+    width: 90%; /* Scales dynamically with page width */
+    /* max-width: 1200px; /* Optional: sets an upper limit to prevent excessive stretching */ */
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    animation: fadeIn 0.8s ease-in-out;
+    margin: 0 auto;
 }
+
 h1 {
-    font-size: 2.5em;
-    color: #007bff;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 20px;
+    font-size: 2.2em;
+    color: #005566;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
 }
+
 h2 {
-    font-size: 2em;
-    color: #555555;
-    margin-bottom: 30px;
+    font-size: 1.2em;
+    color: #34495e;
+    font-weight: 300;
+    margin-bottom: 20px;
 }
 
 .intro-icon {
-    font-size: 1.2em;
+    font-size: 1.1em;
+    margin-right: 5px;
 }
 
 .intro-highlight {
-    font-size: 1.15em;
-    /* background-color: #e8f4f8; */
-    /* padding: 15px;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    border-left: 4px solid #3498db; */
+    font-size: 1.1em;
+    background-color: rgba(230, 243, 255, 0.9);
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border-left: 4px solid #1e90ff;
 }
 
 .intro-disclaimer {
-    font-size: 1.15em;
-    background-color: #fff3cd;
-    padding: 15px;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    border-left: 4px solid #f1c40f;
+    font-size: 1em;
+    background-color: rgba(255, 248, 225, 0.9);
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border-left: 4px solid #ffb300;
 }
 
 .intro-purpose {
-    color: #7f8c8d;
+    color: #5d6d7e;
 }
 
 .intro-alert {
-    color: #c0392b;
-    font-size: 1.3em;
+    color: #d32f2f;
+    font-size: 1.2em;
+    font-weight: 600;
 }
 
 @keyframes fadeIn {
-    0% { opacity: 0; transform: translateY(-20px); }
+    0% { opacity: 0; transform: translateY(-15px); }
     100% { opacity: 1; transform: translateY(0); }
 }
 
+/* Start of button css */
 .chat-send-button {
     border-radius: 20px;
     padding: 8px 16px;
@@ -63,6 +92,78 @@ h2 {
     align-items: center;
     gap: 5px;
 }
+
+chat-send-button:hover {
+    transform: translateY(-2px);
+}
+
+.chat-send-button:focus {
+    outline: 2px solid #4a90e2;
+    outline-offset: 2px;
+}
+
+.chat-send-button::after {
+    content: '📤';
+    font-size: 1.1em;
+    margin-left: 6px;
+}
+
+.clear-button {
+    border-radius: 25px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #adb5bd; /* Changed from #6c757d */
+    color: white;
+    font-weight: 500;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.clear-button:hover {
+    background-color: #9aa4ad; /* Changed from #5a6268 */
+    transform: translateY(-2px);
+}
+
+.clear-button:focus {
+    outline: 2px solid #c3c8cf; /* Lighter shade to complement #adb5bd */
+    outline-offset: 2px;
+}
+
+.clear-button::after {
+    content: '🗑️';
+    font-size: 1.1em;
+    margin-left: 6px;
+}
+
+.stop-button {
+    border-radius: 25px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #d32f2f;
+    color: white;
+    font-weight: 500;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.stop-button:hover {
+    background-color: #b71c1c;
+    transform: translateY(-2px);
+}
+
+.stop-button:focus {
+    outline: 2px solid #ef5350;
+    outline-offset: 2px;
+}
+
+.stop-button::after {
+    content: '⏹️';
+    font-size: 1.1em;
+    margin-left: 6px;
+}
+/* End of button css */
 .enhanced-checkbox {
     font-weight: bold;
     color: #2c3e50;
