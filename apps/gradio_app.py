@@ -9,20 +9,19 @@ from model_handler import ModelHandler
 from generator import generate_response
 
 DESCRIPTION = '''
-<h1><span class="intro-icon">⚕️</span> Vietnamese Health Chat LoRA</h1>
-<h2>AI-Powered Medical Insights</h2>
-<div class="intro-highlight">
-    <span class="emphasis">Discover advanced models fine-tuned with LoRA for precise medical reasoning in Vietnamese.</span>
-</div>
-<div class="intro-disclaimer">
-    <span class="intro-icon">ℹ️</span> Important Notice:
-        <span class="intro-purpose">
-            For research purposes only. AI responses may have limitations due to development, datasets, or architecture.
+<div class="intro-container">
+    <h1><span class="intro-icon">⚕️</span> Vietnamese Health Chat LoRA</h1>
+    <h2>Discover advanced models fine-tuned with LoRA for precise medical reasoning in Vietnamese</h2>
+    <div class="intro-disclaimer">
+        <span class="intro-icon">ℹ️</span> Important Notice:
+            <span class="intro-purpose">
+                For research purposes only. AI responses may have limitations due to development, datasets, or architecture.
+            </span>
+        <br>    
+        <span class="intro-alert emphasis">
+            🚨Always consult a certified medical professional for personalized health advice🩺
         </span>
-    <br>    
-    <span class="intro-alert emphasis">
-        🚨Always consult a certified medical professional for personalized health advice🩺
-    </span>
+    </div>
 </div>
 '''
 
@@ -35,7 +34,7 @@ def user(message, history):
     return "", history + [[message, None]]
 
 def create_ui(model_handler):
-    with gr.Blocks(css=CSS, theme=gr.themes.Default()) as demo:
+    with gr.Blocks(css=CSS, theme=gr.themes.Default(), elem_classes="app-container") as demo:
         gr.HTML(DESCRIPTION)
         gr.HTML('<script src="file=gradio_app/static/script.js"></script>')
         active_gen = gr.State([False])
@@ -43,15 +42,15 @@ def create_ui(model_handler):
         
         chatbot = gr.Chatbot(
             elem_id="output-container",
-            height=500,
+            height=250,
             show_label=False,
             render_markdown=True
         )
 
         with gr.Row():
             msg = gr.Textbox(
-                label="Message",
-                placeholder="Enter your medical query in Vietnamese...",
+                label="Your Medical Query",
+                placeholder="Ask about symptoms, treatments, or medical advice in Vietnamese...",
                 container=False,
                 scale=4
             )
@@ -63,8 +62,16 @@ def create_ui(model_handler):
             )
         
         with gr.Row():
-            clear_btn = gr.Button("Clear", variant='secondary')
-            stop_btn = gr.Button("Stop", variant='stop')
+            clear_btn = gr.Button(
+                value="Clear",
+                variant='secondary',
+                elem_classes="clear-button"
+            )
+            stop_btn = gr.Button(
+                value="Stop",
+                variant='stop',
+                elem_classes="stop-button"
+            )
         
         with gr.Row():
             with gr.Column(scale=1):
