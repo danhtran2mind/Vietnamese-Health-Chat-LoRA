@@ -26,7 +26,7 @@ DESCRIPTION = '''
 '''
 
 # Load local CSS file
-CSS = open("gradio_app/static/styles.css").read()
+CSS = open("apps/gradio_app/static/styles.css").read()
 
 def user(message, history):
     if not isinstance(history, list):
@@ -36,7 +36,7 @@ def user(message, history):
 def create_ui(model_handler):
     with gr.Blocks(css=CSS, theme=gr.themes.Default(), elem_classes="app-container") as demo:
         gr.HTML(DESCRIPTION)
-        gr.HTML('<script src="file=gradio_app/static/script.js"></script>')
+        gr.HTML('<script src="file=apps/gradio_app/static/script.js"></script>')
         active_gen = gr.State([False])
         model_handler_state = gr.State(model_handler)
         
