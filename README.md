@@ -146,3 +146,14 @@ Check the [Notebooks](#notebooks) section for training details of each LoRA mode
 
 ## Contact
 For inquiries or issues, visit the [GitHub Issues tab](https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/issues).
+
+## Project Description
+
+See detail LoRA models you can explore at:
+- [![Gemma-3-1B-Instruct-Vi-Medical-LoRA](https://img.shields.io/badge/HuggingFace-Gemma--3--1B--Instruct--Vi--Medical--LoRA-yellow?style=flat&logo=huggingface)](https://huggingface.co/danhtran2mind/Gemma-3-1B-Instruct-Vi-Medical-LoRA)  
+- [![Gemma-3-1B-GRPO-Vi-Medical-LoRA](https://img.shields.io/badge/HuggingFace-Gemma--3--1B--GRPO--Vi--Medical--LoRA-yellow?style=flat&logo=huggingface)](https://huggingface.co/danhtran2mind/Gemma-3-1B-GRPO-Vi-Medical-LoRA)  
+- [![Llama-3.2-3B-Instruct-Vi-Medical-LoRA](https://img.shields.io/badge/HuggingFace-Llama--3.2--3B--Instruct--Vi--Medical--LoRA-yellow?style=flat&logo=huggingface)](https://huggingface.co/danhtran2mind/Llama-3.2-3B-Instruct-Vi-Medical-LoRA)  
+- [![Llama-3.2-1B-Instruct-Vi-Medical-LoRA](https://img.shields.io/badge/HuggingFace-Llama--3.2--1B--Instruct--Vi--Medical--LoRA-yellow?style=flat&logo=huggingface)](https://huggingface.co/danhtran2mind/Llama-3.2-1B-Instruct-Vi-Medical-LoRA)  
+- [![Llama-3.2-3B-Reasoning-Vi-Medical-LoRA](https://img.shields.io/badge/HuggingFace-Llama--3.2--3B--Reasoning--Vi--Medical--LoRA-yellow?style=flat&logo=huggingface)](https://huggingface.co/danhtran2mind/Llama-3.2-3B-Reasoning-Vi-Medical-LoRA)  
+- [![Qwen-3-0.6B-Instruct-Vi-Medical-LoRA](https://img.shields.io/badge/HuggingFace-Qwen--3--0.6B--Instruct--Vi--Medical--LoRA-yellow?style=flat&logo=huggingface)](https://huggingface.co/danhtran2mind/Qwen-3-0.6B-Instruct-Vi-Medical-LoRA)  
+- [![Qwen-3-0.6B-Reasoning-Vi-Medical-LoRA](https://img.shields.io/badge/HuggingFace-Qwen--3--0.6B--Reasoning--Vi--Medical--LoRA-yellow?style=flat&logo=huggingface)](https://huggingface.co/danhtran2mind/Qwen-3-0.6B-Reasoning-Vi-Medical-LoRA)
