@@ -12,6 +12,10 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
+> ℹ️ Important Notice: For research purposes only. AI responses may have limitations due to development, datasets, or architecture.
+> 🚨Always consult a certified medical professional for personalized health advice🩺
+
+
 ## Introduction
 Vietnamese-Health-Chat-LoRA is an advanced conversational AI project designed for healthcare queries in Vietnamese. Utilizing LoRA fine-tuning, it enhances leading language models to deliver precise, contextually relevant medical responses. 🚀
 
