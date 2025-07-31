@@ -25,97 +25,100 @@ Vietnamese-Health-Chat-LoRA is an advanced conversational AI project designed fo
 Dive into the training and inference processes:
 
 ### `gemma-3-1b-grpo-vi-medical-lora`
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/gemma-3-1b-grpo-vi-medical-lora.ipynb)  
-[![Open in SageMaker](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/gemma-3-1b-grpo-vi-medical-lora.ipynb)  
-[![Open in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-small.svg)](https://deepnote.com/launch?url=https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/gemma-3-1b-grpo-vi-medical-lora.ipynb)  
-[![JupyterLab](https://img.shields.io/badge/Launch-JupyterLab-orange?logo=Jupyter)](https://mybinder.org/v2/gh/danhtran2mind/Vietnamese-Health-Chat-LoRA/main?filepath=notebooks/gemma-3-1b-grpo-vi-medical-lora.ipynb)  
-[![Open in Gradient](https://console.paperspace.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/gemma-3-1b-grpo-vi-medical-lora.ipynb)](https://console.paperspace.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/gemma-3-1b-grpo-vi-medical-lora.ipynb)  
-[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danhtran2mind/Vietnamese-Health-Chat-LoRA/main)  
-[![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-181717?logo=github)](https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/gemma-3-1b-grpo-vi-medical-lora.ipynb)  
-[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/notebooks/welcome?src=https%3A%2F%2Fgithub.com%2Fdanhtran2mind%2FVietnamese-Health-Chat-LoRA%2Fblob%2Fmain%2Fnotebooks%2Fgemma-3-1b-grpo-vi-medical-lora.ipynb)  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/gemma-3-1b-grpo-vi-medical-lora.ipynb)
+[![Open in SageMaker](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/gemma-3-1b-grpo-vi-medical-lora.ipynb)
+[![Open in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-small.svg)](https://deepnote.com/launch?url=https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/gemma-3-1b-grpo-vi-medical-lora.ipynb)
+[![JupyterLab](https://img.shields.io/badge/Launch-JupyterLab-orange?logo=Jupyter)](https://mybinder.org/v2/gh/danhtran2mind/Vietnamese-Health-Chat-LoRA/main?filepath=notebooks/gemma-3-1b-grpo-vi-medical-lora.ipynb)
+[![Open in Gradient](https://assets.paperspace.io/img/gradient-badge.svg)](https://console.paperspace.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/gemma-3-1b-grpo-vi-medical-lora.ipynb)
+[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danhtran2mind/Vietnamese-Health-Chat-LoRA/main)
+[![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-181717?logo=github)](https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/gemma-3-1b-grpo-vi-medical-lora.ipynb)
+[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/notebooks/welcome?src=https%3A%2F%2Fgithub.com%2Fdanhtran2mind%2FVietnamese-Health-Chat-LoRA%2Fblob%2Fmain%2Fnotebooks%2Fgemma-3-1b-grpo-vi-medical-lora.ipynb)
 
 ### `gemma-3-1b-it-vi-medical-lora`
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/gemma-3-1b-it-vi-medical-lora.ipynb)  
-[![Open in SageMaker](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/gemma-3-1b-it-vi-medical-lora.ipynb)  
-[![Open in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-small.svg)](https://deepnote.com/launch?url=https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/gemma-3-1b-it-vi-medical-lora.ipynb)  
-[![JupyterLab](https://img.shields.io/badge/Launch-JupyterLab-orange?logo=Jupyter)](https://mybinder.org/v2/gh/danhtran2mind/Vietnamese-Health-Chat-LoRA/main?filepath=notebooks/gemma-3-1b-it-vi-medical-lora.ipynb)  
-[![Open in Gradient](https://console.paperspace.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/gemma-3-1b-it-vi-medical-lora.ipynb)](https://console.paperspace.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/gemma-3-1b-it-vi-medical-lora.ipynb)  
-[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danhtran2mind/Vietnamese-Health-Chat-LoRA/main)  
-[![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-181717?logo=github)](https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/gemma-3-1b-it-vi-medical-lora.ipynb)  
-[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/notebooks/welcome?src=https%3A%2F%2Fgithub.com%2Fdanhtran2mind%2FVietnamese-Health-Chat-LoRA%2Fblob%2Fmain%2Fnotebooks%2Fgemma-3-1b-it-vi-medical-lora.ipynb)  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/gemma-3-1b-it-vi-medical-lora.ipynb)
+[![Open in SageMaker](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/gemma-3-1b-it-vi-medical-lora.ipynb)
+[![Open in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-small.svg)](https://deepnote.com/launch?url=https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/gemma-3-1b-it-vi-medical-lora.ipynb)
+[![JupyterLab](https://img.shields.io/badge/Launch-JupyterLab-orange?logo=Jupyter)](https://mybinder.org/v2/gh/danhtran2mind/Vietnamese-Health-Chat-LoRA/main?filepath=notebooks/gemma-3-1b-it-vi-medical-lora.ipynb)
+[![Open in Gradient](https://assets.paperspace.io/img/gradient-badge.svg)](https://console.paperspace.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/gemma-3-1b-it-vi-medical-lora.ipynb)
+[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danhtran2mind/Vietnamese-Health-Chat-LoRA/main)
+[![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-181717?logo=github)](https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/gemma-3-1b-it-vi-medical-lora.ipynb)
+[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/notebooks/welcome?src=https%3A%2F%2Fgithub.com%2Fdanhtran2mind%2FVietnamese-Health-Chat-LoRA%2Fblob%2Fmain%2Fnotebooks%2Fgemma-3-1b-it-vi-medical-lora.ipynb)
 
 ### `llama-3-2-1b-it-vi-medical-lora`
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-1b-it-vi-medical-lora.ipynb)  
-[![Open in SageMaker](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-1b-it-vi-medical-lora.ipynb)  
-[![Open in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-small.svg)](https://deepnote.com/launch?url=https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-1b-it-vi-medical-lora.ipynb)  
-[![JupyterLab](https://img.shields.io/badge/Launch-JupyterLab-orange?logo=Jupyter)](https://mybinder.org/v2/gh/danhtran2mind/Vietnamese-Health-Chat-LoRA/main?filepath=notebooks/llama-3-2-1b-it-vi-medical-lora.ipynb)  
-[![Open in Gradient](https://console.paperspace.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-1b-it-vi-medical-lora.ipynb)](https://console.paperspace.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-1b-it-vi-medical-lora.ipynb)  
-[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danhtran2mind/Vietnamese-Health-Chat-LoRA/main)  
-[![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-181717?logo=github)](https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-1b-it-vi-medical-lora.ipynb)  
-[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/notebooks/welcome?src=https%3A%2F%2Fgithub.com%2Fdanhtran2mind%2FVietnamese-Health-Chat-LoRA%2Fblob%2Fmain%2Fnotebooks%2Fllama-3-2-1b-it-vi-medical-lora.ipynb)  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-1b-it-vi-medical-lora.ipynb)
+[![Open in SageMaker](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-1b-it-vi-medical-lora.ipynb)
+[![Open in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-small.svg)](https://deepnote.com/launch?url=https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-1b-it-vi-medical-lora.ipynb)
+[![JupyterLab](https://img.shields.io/badge/Launch-JupyterLab-orange?logo=Jupyter)](https://mybinder.org/v2/gh/danhtran2mind/Vietnamese-Health-Chat-LoRA/main?filepath=notebooks/llama-3-2-1b-it-vi-medical-lora.ipynb)
+[![Open in Gradient](https://assets.paperspace.io/img/gradient-badge.svg)](https://console.paperspace.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-1b-it-vi-medical-lora.ipynb)
+[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danhtran2mind/Vietnamese-Health-Chat-LoRA/main)
+[![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-181717?logo=github)](https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-1b-it-vi-medical-lora.ipynb)
+[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/notebooks/welcome?src=https%3A%2F%2Fgithub.com%2Fdanhtran2mind%2FVietnamese-Health-Chat-LoRA%2Fblob%2Fmain%2Fnotebooks%2Fllama-3-2-1b-it-vi-medical-lora.ipynb)
 
 ### `llama-3-2-3b-it-vi-medical-lora`
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-3b-it-vi-medical-lora.ipynb)  
-[![Open in SageMaker](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-3b-it-vi-medical-lora.ipynb)  
-[![Open in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-small.svg)](https://deepnote.com/launch?url=https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-3b-it-vi-medical-lora.ipynb)  
-[![JupyterLab](https://img.shields.io/badge/Launch-JupyterLab-orange?logo=Jupyter)](https://mybinder.org/v2/gh/danhtran2mind/Vietnamese-Health-Chat-LoRA/main?filepath=notebooks/llama-3-2-3b-it-vi-medical-lora.ipynb)  
-[![Open in Gradient](https://console.paperspace.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-3b-it-vi-medical-lora.ipynb)](https://console.paperspace.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-3b-it-vi-medical-lora.ipynb)  
-[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danhtran2mind/Vietnamese-Health-Chat-LoRA/main)  
-[![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-181717?logo=github)](https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-3b-it-vi-medical-lora.ipynb)  
-[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/notebooks/welcome?src=https%3A%2F%2Fgithub.com%2Fdanhtran2mind%2FVietnamese-Health-Chat-LoRA%2Fblob%2Fmain%2Fnotebooks%2Fllama-3-2-3b-it-vi-medical-lora.ipynb)  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-3b-it-vi-medical-lora.ipynb)
+[![Open in SageMaker](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-3b-it-vi-medical-lora.ipynb)
+[![Open in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-small.svg)](https://deepnote.com/launch?url=https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-3b-it-vi-medical-lora.ipynb)
+[![JupyterLab](https://img.shields.io/badge/Launch-JupyterLab-orange?logo=Jupyter)](https://mybinder.org/v2/gh/danhtran2mind/Vietnamese-Health-Chat-LoRA/main?filepath=notebooks/llama-3-2-3b-it-vi-medical-lora.ipynb)
+[![Open in Gradient](https://assets.paperspace.io/img/gradient-badge.svg)](https://console.paperspace.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-3b-it-vi-medical-lora.ipynb)
+[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danhtran2mind/Vietnamese-Health-Chat-LoRA/main)
+[![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-181717?logo=github)](https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-3b-it-vi-medical-lora.ipynb)
+[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/notebooks/welcome?src=https%3A%2F%2Fgithub.com%2Fdanhtran2mind%2FVietnamese-Health-Chat-LoRA%2Fblob%2Fmain%2Fnotebooks%2Fllama-3-2-3b-it-vi-medical-lora.ipynb)
 
 ### `llama-3-2-3b-reasoning-vi-medical-lora-training`
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-3b-reasoning-vi-medical-lora-training.ipynb)  
-[![Open in SageMaker](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-3b-reasoning-vi-medical-lora-training.ipynb)  
-[![Open in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-small.svg)](https://deepnote.com/launch?url=https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-3b-reasoning-vi-medical-lora-training.ipynb)  
-[![JupyterLab](https://img.shields.io/badge/Launch-JupyterLab-orange?logo=Jupyter)](https://mybinder.org/v2/gh/danhtran2mind/Vietnamese-Health-Chat-LoRA/main?filepath=notebooks/llama-3-2-3b-reasoning-vi-medical-lora-training.ipynb)  
-[![Open in Gradient](https://console.paperspace.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-3b-reasoning-vi-medical-lora-training.ipynb)](https://console.paperspace.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-3b-reasoning-vi-medical-lora-training.ipynb)  
-[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danhtran2mind/Vietnamese-Health-Chat-LoRA/main)  
-[![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-181717?logo=github)](https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-3b-reasoning-vi-medical-lora-training.ipynb)  
-[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/notebooks/welcome?src=https%3A%2F%2Fgithub.com%2Fdanhtran2mind%2FVietnamese-Health-Chat-LoRA%2Fblob%2Fmain%2Fnotebooks%2Fllama-3-2-3b-reasoning-vi-medical-lora-training.ipynb)  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-3b-reasoning-vi-medical-lora-training.ipynb)
+[![Open in SageMaker](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-3b-reasoning-vi-medical-lora-training.ipynb)
+[![Open in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-small.svg)](https://deepnote.com/launch?url=https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-3b-reasoning-vi-medical-lora-training.ipynb)
+[![JupyterLab](https://img.shields.io/badge/Launch-JupyterLab-orange?logo=Jupyter)](https://mybinder.org/v2/gh/danhtran2mind/Vietnamese-Health-Chat-LoRA/main?filepath=notebooks/llama-3-2-3b-reasoning-vi-medical-lora-training.ipynb)
+[![Open in Gradient](https://assets.paperspace.io/img/gradient-badge.svg)](https://console.paperspace.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-3b-reasoning-vi-medical-lora-training.ipynb)
+[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danhtran2mind/Vietnamese-Health-Chat-LoRA/main)
+[![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-181717?logo=github)](https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/llama-3-2-3b-reasoning-vi-medical-lora-training.ipynb)
+[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/notebooks/welcome?src=https%3A%2F%2Fgithub.com%2Fdanhtran2mind%2FVietnamese-Health-Chat-LoRA%2Fblob%2Fmain%2Fnotebooks%2Fllama-3-2-3b-reasoning-vi-medical-lora-training.ipynb)
 
 ### `qwen-3-0-6b-it-vi-medical-lora`
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/qwen-3-0-6b-it-vi-medical-lora.ipynb)  
-[![Open in SageMaker](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/qwen-3-0-6b-it-vi-medical-lora.ipynb)  
-[![Open in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-small.svg)](https://deepnote.com/launch?url=https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/qwen-3-0-6b-it-vi-medical-lora.ipynb)  
-[![JupyterLab](https://img.shields.io/badge/Launch-JupyterLab-orange?logo=Jupyter)](https://mybinder.org/v2/gh/danhtran2mind/Vietnamese-Health-Chat-LoRA/main?filepath=notebooks/qwen-3-0-6b-it-vi-medical-lora.ipynb)  
-[![Open in Gradient](https://console.paperspace.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/qwen-3-0-6b-it-vi-medical-lora.ipynb)](https://console.paperspace.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/qwen-3-0-6b-it-vi-medical-lora.ipynb)  
-[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danhtran2mind/Vietnamese-Health-Chat-LoRA/main)  
-[![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-181717?logo=github)](https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/qwen-3-0-6b-it-vi-medical-lora.ipynb)  
-[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/notebooks/welcome?src=https%3A%2F%2Fgithub.com%2Fdanhtran2mind%2FVietnamese-Health-Chat-LoRA%2Fblob%2Fmain%2Fnotebooks%2Fqwen-3-0-6b-it-vi-medical-lora.ipynb)  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/qwen-3-0-6b-it-vi-medical-lora.ipynb)
+[![Open in SageMaker](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/qwen-3-0-6b-it-vi-medical-lora.ipynb)
+[![Open in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-small.svg)](https://deepnote.com/launch?url=https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/qwen-3-0-6b-it-vi-medical-lora.ipynb)
+[![JupyterLab](https://img.shields.io/badge/Launch-JupyterLab-orange?logo=Jupyter)](https://mybinder.org/v2/gh/danhtran2mind/Vietnamese-Health-Chat-LoRA/main?filepath=notebooks/qwen-3-0-6b-it-vi-medical-lora.ipynb)
+[![Open in Gradient](https://assets.paperspace.io/img/gradient-badge.svg)](https://console.paperspace.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/qwen-3-0-6b-it-vi-medical-lora.ipynb)
+[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danhtran2mind/Vietnamese-Health-Chat-LoRA/main)
+[![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-181717?logo=github)](https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/qwen-3-0-6b-it-vi-medical-lora.ipynb)
+[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/notebooks/welcome?src=https%3A%2F%2Fgithub.com%2Fdanhtran2mind%2FVietnamese-Health-Chat-LoRA%2Fblob%2Fmain%2Fnotebooks%2Fqwen-3-0-6b-it-vi-medical-lora.ipynb)
 
 ### `qwen-3-0-6b-reasoning-vi-medical-lora`
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/qwen-3-0-6b-reasoning-vi-medical-lora.ipynb)  
-[![Open in SageMaker](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/qwen-3-0-6b-reasoning-vi-medical-lora.ipynb)  
-[![Open in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-small.svg)](https://deepnote.com/launch?url=https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/qwen-3-0-6b-reasoning-vi-medical-lora.ipynb)  
-[![JupyterLab](https://img.shields.io/badge/Launch-JupyterLab-orange?logo=Jupyter)](https://mybinder.org/v2/gh/danhtran2mind/Vietnamese-Health-Chat-LoRA/main?filepath=notebooks/qwen-3-0-6b-reasoning-vi-medical-lora.ipynb)  
-[![Open in Gradient](https://console.paperspace.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/qwen-3-0-6b-reasoning-vi-medical-lora.ipynb)](https://console.paperspace.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/qwen-3-0-6b-reasoning-vi-medical-lora.ipynb)  
-[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danhtran2mind/Vietnamese-Health-Chat-LoRA/main)  
-[![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-181717?logo=github)](https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/qwen-3-0-6b-reasoning-vi-medical-lora.ipynb)  
-[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/notebooks/welcome?src=https%3A%2F%2Fgithub.com%2Fdanhtran2mind%2FVietnamese-Health-Chat-LoRA%2Fblob%2Fmain%2Fnotebooks%2Fqwen-3-0-6b-reasoning-vi-medical-lora.ipynb)  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/qwen-3-0-6b-reasoning-vi-medical-lora.ipynb)
+[![Open in SageMaker](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/qwen-3-0-6b-reasoning-vi-medical-lora.ipynb)
+[![Open in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-small.svg)](https://deepnote.com/launch?url=https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/qwen-3-0-6b-reasoning-vi-medical-lora.ipynb)
+[![JupyterLab](https://img.shields.io/badge/Launch-JupyterLab-orange?logo=Jupyter)](https://mybinder.org/v2/gh/danhtran2mind/Vietnamese-Health-Chat-LoRA/main?filepath=notebooks/qwen-3-0-6b-reasoning-vi-medical-lora.ipynb)
+[![Open in Gradient](https://assets.paperspace.io/img/gradient-badge.svg)](https://console.paperspace.com/github/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/qwen-3-0-6b-reasoning-vi-medical-lora.ipynb)
+[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danhtran2mind/Vietnamese-Health-Chat-LoRA/main)
+[![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-181717?logo=github)](https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/blob/main/notebooks/qwen-3-0-6b-reasoning-vi-medical-lora.ipynb)
+[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/notebooks/welcome?src=https%3A%2F%2Fgithub.com%2Fdanhtran2mind%2FVietnamese-Health-Chat-LoRA%2Fblob%2Fmain%2Fnotebooks%2Fqwen-3-0-6b-reasoning-vi-medical-lora.ipynb)
 
 ## Dataset
-Trained on the **ViMedAQA** dataset:  
-[![HuggingFace Dataset](https://img.shields.io/badge/HuggingFace-tmnam20%2FViMedAQA-yellow?style=flat&logo=huggingface)](https://huggingface.co/datasets/tmnam20/ViMedAQA)
+Our LoRa model is trained on the ViMedAQA dataset for optimal performance results always. You can explore more at: [![HuggingFace Dataset](https://img.shields.io/badge/HuggingFace-tmnam20%2FViMedAQA-yellow?style=flat&logo=huggingface)](https://huggingface.co/datasets/tmnam20/ViMedAQA)
 
 ## Base Model
-- [Gemma-3-1B-Instruct](https://huggingface.co/google/gemma-3-1b-it)
-- [Llama-3.2-1B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct)
-- [Llama-3.2-3B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct)
-- [Qwen-3-0.6B](https://huggingface.co/Qwen/Qwen3-0.6B)
+
+Our LoRA is fine-tuned on compact, efficient base models: 
+[![Gemma-3-1B-Instruct](https://img.shields.io/badge/HuggingFace-Gemma--3--1B--Instruct-yellow?style=flat&logo=huggingface)](https://huggingface.co/google/gemma-3-1b-it),
+[![Llama-3.2-1B-Instruct](https://img.shields.io/badge/HuggingFace-Llama--3.2--1B--Instruct-yellow?style=flat&logo=huggingface)](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct),
+[![Llama-3.2-3B-Instruct](https://img.shields.io/badge/HuggingFace-Llama--3.2--3B--Instruct-yellow?style=flat&logo=huggingface)](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct),
+and [![Qwen-3-0.6B](https://img.shields.io/badge/HuggingFace-Qwen--3--0.6B-yellow?style=flat&logo=huggingface)](https://huggingface.co/Qwen/Qwen3-0.6B). 
+These models, accessible via Hugging Face, offer robust instruction-following capabilities, enabling specialized performance. Explore the links for detailed model specifications and usage.
 
 ## Demonstration
 Discover the capabilities of Vietnamese-Health-Chat-LoRA:  
-- **HuggingFace Space**: [![HuggingFace Space Demo](https://img.shields.io/badge/HuggingFace-danhtran2mind%2FText2Video--Ghibli--style-yellow?style=flat&logo=huggingface)](https://huggingface.co/spaces/danhtran2mind/Text2Video-Ghibli-style)  
+- **HuggingFace Space**: [![HuggingFace Space Demo](https://img.shields.io/badge/HuggingFace-danhtran2mind%2FVietnamese--Health--Chat--LoRA-yellow?style=flat&logo=huggingface)](https://huggingface.co/spaces/danhtran2mind/Vietnamese-Health-Chat-LoRA)
+
 - **Demo GUI**:  
   ![Gradio Demo](./assets/gradio_app_demo.jpg)
 
-Run locally:  
+To run the Gradio app locally (`localhost:7860`):
 ```bash
 python apps/gradio_app.py
 ```
 
-## Installation
+## Usage Guide
 
 ### Step 1: Clone the Repository
 ```bash
