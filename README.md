@@ -1,4 +1,4 @@
-# Vietnamese-Health-Chat-LoRA ⚕️
+# Vietnamese Health Chat LoRA ⚕️
 
 [![GitHub Stars](https://img.shields.io/github/stars/danhtran2mind/Vietnamese-Health-Chat-LoRA?style=social&label=Repo%20Stars)](https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA/stargazers)
 ![Repo Views](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fdanhtran2mind%2FVietnamese-Health-Chat-LoRA&label=Repo+Views&icon=github&color=%236f42c1&message=&style=social&tz=UTC)
