@@ -13,7 +13,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 > ℹ️ **Important Notice: For research purposes only. AI responses may have limitations due to development, datasets, or architecture**.
-> 🚨**Always consult a certified medical professional for personalized health advice**🩺
+> 🚨 **Always consult a certified medical professional for personalized health advice**🩺
 
 
 ## Introduction
