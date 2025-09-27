@@ -17,7 +17,7 @@
 
 
 ## Introduction
-Vietnamese-Health-Chat-LoRA is an advanced conversational AI project designed for healthcare queries in Vietnamese. Utilizing LoRA fine-tuning, it enhances leading language models to deliver precise, contextually relevant medical responses. 🚀
+Vietnamese Health Chat LoRA is an advanced conversational AI project designed for healthcare queries in Vietnamese. Utilizing LoRA fine-tuning, it enhances leading language models to deliver precise, contextually relevant medical responses. 🚀
 
 ## Key Features
 - 🩺 **Specialized Medical Responses**: Tailored for accurate healthcare conversations in Vietnamese.
